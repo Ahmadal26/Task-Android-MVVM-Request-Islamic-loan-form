@@ -31,7 +31,7 @@ val viewModel by viewModels<LoanCalculatorViewModel>()
                 ) {
                     Column {
 
-                      setContent { LoanCalculatorComposable(viewModel = viewModel) }
+                      LoanCalculatorComposable(viewModel = viewModel)
 
                         }
                     }
